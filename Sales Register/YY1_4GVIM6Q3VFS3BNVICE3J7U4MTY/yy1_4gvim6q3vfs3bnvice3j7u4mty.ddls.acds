@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1DD822E6B2D36B6'
+
+extend view I_SALESDOCUMENTITEM with YY1_4GVIM6Q3VFS3BNVICE3J7U4MTY
+  
+{ 
+  _Extension.YY1_STP_EMAIL_SDI as YY1_STP_Email_SDI
+}

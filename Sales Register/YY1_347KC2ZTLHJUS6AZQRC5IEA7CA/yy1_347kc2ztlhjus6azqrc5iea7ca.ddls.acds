@@ -1,0 +1,5 @@
+extend view entity E_MATERIALDOCUMENTITEM_2 with 
+  
+{ 
+  Persistence.YY1_MATERIALCODE_MMI as YY1_MaterialCode_MMI
+}

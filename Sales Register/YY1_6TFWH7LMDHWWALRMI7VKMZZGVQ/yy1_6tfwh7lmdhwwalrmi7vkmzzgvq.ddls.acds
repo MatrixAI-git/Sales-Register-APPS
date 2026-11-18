@@ -1,0 +1,5 @@
+extend view entity E_SALESDOCUMENTBASIC with 
+  
+{ 
+  Persistence.YY1_ZCONSIGNEE_MAIL_SDH as YY1_ZCONSIGNEE_MAIL_SDH
+}

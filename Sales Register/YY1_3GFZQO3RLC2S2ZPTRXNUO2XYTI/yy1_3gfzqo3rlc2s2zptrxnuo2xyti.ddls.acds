@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y10C746BB6AA1FDF'
+
+extend view C_PL_BILLINGDOCUMENT with YY1_3GFZQO3RLC2S2ZPTRXNUO2XYTI
+  
+{ 
+  _Extension.YY1_FINALDISCHARGE_BDH as YY1_FinalDischarge_BDH
+}

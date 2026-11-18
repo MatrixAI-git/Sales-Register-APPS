@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y18F096A8AB8E44C'
+
+extend view I_SCHEDGAGRMTHDRAPI01 with YY1_4JAMYZYOTFJCJ35G5W3H2HSJUY
+  
+{ 
+  _SchAgreementExtension.YY1_PO_HEADER_TITLE_PDH as YY1_PO_Header_Title_PDH
+}

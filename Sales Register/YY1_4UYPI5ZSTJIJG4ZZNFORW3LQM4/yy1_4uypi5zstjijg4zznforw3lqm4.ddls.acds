@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y10624CD1E6F813D'
+
+extend view I_SALESDOCUMENT with YY1_4UYPI5ZSTJIJG4ZZNFORW3LQM4
+  
+{ 
+  _Extension.YY1_PLANTPHONE_HEADER_SDH as YY1_plantphone_header_SDH
+}

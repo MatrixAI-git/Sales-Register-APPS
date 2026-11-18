@@ -1,0 +1,5 @@
+extend view entity R_MANAGEJOURNALENTRYITEMDRAFT with 
+  
+{ 
+  _Extension.YY1_GSTIN_V_JEI as YY1_GSTIN_V_JEI
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1CFDE1C326F673E'
+
+extend view E_SDMASSCHGCKPTSLSDOCHDRCHGBSC with YY1_6QJDIHTHJT6DF7JIFQECXQQJGE
+  
+{ 
+  Persistence.YY1_SD_PACKING_SDH as YY1_SD_Packing_SDH
+}

@@ -1,0 +1,18 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1B05E02E4C5C3E0'
+
+extend view I_SALESDOCUMENTITEM with YY1_5LEXOELG2642KPLV6WRRIWP7VI
+    association [0..1] to YY1_SD_DBGRADE_V as _YY1_SD_DBGrade_SDI
+  on  $projection.YY1_SD_DBGrade_SDI = _YY1_SD_DBGrade_SDI.Code 
+ 
+{ 
+@Consumption.valueHelpDefinition: [{
+  entity: {
+    name: 'YY1_SD_DBGRADE_V',
+    element: 'Code'
+  }
+}]
+@ObjectModel.foreignKey.association: '_YY1_SD_DBGrade_SDI'
+  _Extension.YY1_SD_DBGRADE_SDI as YY1_SD_DBGrade_SDI,
+  _YY1_SD_DBGrade_SDI
+}

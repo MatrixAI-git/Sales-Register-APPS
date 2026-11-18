@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1F8292F8BA2444B'
+
+extend view I_PURGINFORECORDWWITHDRAFT with YY1_6YTRTJW4U5AJJEBWFV7OGC42TY
+  
+{ 
+  _PurgInfoRecdOrgPlantExtension.YY1_REASONFORDELETION1_INF as YY1_ReasonforDeletion1_INF
+}

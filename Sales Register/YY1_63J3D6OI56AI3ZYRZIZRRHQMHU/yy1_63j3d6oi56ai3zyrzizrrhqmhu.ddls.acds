@@ -1,0 +1,5 @@
+extend view entity I_BILLINGDOCUMENTTP with 
+  
+{ 
+  BillingDocument.YY1_PlantCIN1_BDH as YY1_PlantCIN1_BDH
+}

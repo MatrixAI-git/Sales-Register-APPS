@@ -1,0 +1,5 @@
+extend view entity R_SALESORDERITEMTP with 
+  
+{ 
+  _Extension.YY1_SD_RTPLSTATUS_SDI as YY1_SD_RTPLStatus_SDI
+}

@@ -1,0 +1,9 @@
+extend view entity R_SALESORDERITEMTP with 
+    association [0..1] to YY1_SD_DBGRADE_V as _YY1_SD_DBGrade_SDI
+  on  $projection.YY1_SD_DBGrade_SDI = _YY1_SD_DBGrade_SDI.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_SD_DBGrade_SDI'
+  _Extension.YY1_SD_DBGRADE_SDI as YY1_SD_DBGrade_SDI,
+  _YY1_SD_DBGrade_SDI
+}

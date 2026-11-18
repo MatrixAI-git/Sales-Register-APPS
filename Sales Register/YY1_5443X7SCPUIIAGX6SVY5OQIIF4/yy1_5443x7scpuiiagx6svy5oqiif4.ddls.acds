@@ -1,0 +1,5 @@
+extend view entity R_PROCESSORDERTP with 
+  
+{ 
+  _Extension.YY1_CASENO_NEW_ORD as YY1_caseno_new_ORD
+}

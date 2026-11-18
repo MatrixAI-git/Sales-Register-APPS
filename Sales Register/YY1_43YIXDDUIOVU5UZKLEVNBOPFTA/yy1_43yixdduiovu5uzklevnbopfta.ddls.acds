@@ -1,0 +1,12 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y14DBBA1D55E9312'
+
+extend view E_BILLINGDOCUMENT with YY1_43YIXDDUIOVU5UZKLEVNBOPFTA
+    association [0..1] to YY1_MARKETSEGMENT_V as _YY1_MarketSegment_BDH
+  on  $projection.YY1_MarketSegment_BDH = _YY1_MarketSegment_BDH.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_MarketSegment_BDH'
+  Persistence.YY1_MARKETSEGMENT_BDH as YY1_MarketSegment_BDH,
+  _YY1_MarketSegment_BDH
+}

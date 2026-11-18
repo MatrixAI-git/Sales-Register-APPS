@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y12F4F006569721E'
+
+extend view C_SLSDOCFLFLLMNTANALYZER with YY1_5C6NMATTE5ORE2OWM4NFKQ6VTI
+  
+{ 
+  _Extension.YY1_SD_ONELOTINDICATOR_SDH as YY1_SD_OneLotindicator_SDH
+}

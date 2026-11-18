@@ -1,0 +1,122 @@
+@AbapCatalog.sqlViewAppendName: 'Y1AE6DF0882E6889'
+@EndUserText.label: 'YY1_FIDOCUMENTEXTENSION'
+extend view C_OPLACCTGDOCITEMCORRESPNC with YY1_5UMA6RFX7BVPBF77ZSMZBY5T4I
+{
+  @Consumption.valueHelpDefinition:  [{
+   entity: {
+    name: 'I_COUNTRY',
+    element: 'Country'
+   }}]
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._CUSTOMER._ADDRESSDEFAULTREPRESENTATION._REGION._REGIONTEXT[ 1: Language = $session.system_language ].COUNTRY as YY1_Country1,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._COMPANYCODE._COUNTRY._TEXT[ 1: Language = $session.system_language ].COUNTRYNAME                 as YY1_CountryName,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM.IN_HSNORSACCODE                                                                                   as YY1_IN_HSNOrSACCode,
+
+  @Consumption.valueHelpDefinition:  [{
+   entity: {
+    name: 'I_LANGUAGE',
+    element: 'Language'
+   }}]
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  @Semantics.language: true
+  ITEM._CUSTOMER._ADDRESSDEFAULTREPRESENTATION._REGION._REGIONTEXT[ 1: Language = $session.system_language ].LANGUAGE as YY1_Language,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._CUSTOMER._ADDRESSDEFAULTREPRESENTATION.REGION                                                    as YY1_Region10,
+
+  @Consumption.valueHelpDefinition:  [{
+   entity: {
+    name: 'I_REGION',
+    element: 'Region'
+   },
+   additionalBinding: [{
+    localElement: 'YY1_Country1',
+    element: 'Country',
+    usage: #FILTER_AND_RESULT
+   }
+  ]}]
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._CUSTOMER._ADDRESSDEFAULTREPRESENTATION._REGION._REGIONTEXT[ 1: Language = $session.system_language ].REGION as YY1_Region11,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._SUPPLIER._ADDRESSDEFAULTREPRESENTATION.REGION                                                    as YY1_Region12,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._CUSTOMER._ADDRESSDEFAULTREPRESENTATION._REGION._REGIONTEXT[ 1: Language = $session.system_language ].REGIONNAME as YY1_RegionName,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._SUPPLIER._ADDRESSREPRESENTATION._ORGANIZATIONADDRESS._REGION._REGIONTEXT[ 1: Language = $session.system_language ].REGIONNAME as YY1_RegionName1,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._SUPPLIER._ADDRESSDEFAULTREPRESENTATION._REGION._REGIONTEXT[ 1: Language = $session.system_language ].REGIONNAME as YY1_RegionName2,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._CUSTOMER.TAXNUMBER3                                                                              as YY1_TaxNumber3,
+
+  @ObjectModel.foreignKey.association: null
+  @ObjectModel.mandatory: false
+  @ObjectModel.readOnly: true
+  @ObjectModel.text.association: null
+  @ObjectModel.text.element: null
+  @ObjectModel.virtualElementCalculatedBy: null
+  ITEM._SUPPLIER.TAXNUMBER3                                                                              as YY1_TaxNumber31 
+}

@@ -1,0 +1,5 @@
+extend view entity A_PURCHASEORDER_2 with 
+  
+{ 
+  _PurchaseOrderTP.YY1_PurDoc_No_PDH as YY1_PurDoc_No_PDH
+}

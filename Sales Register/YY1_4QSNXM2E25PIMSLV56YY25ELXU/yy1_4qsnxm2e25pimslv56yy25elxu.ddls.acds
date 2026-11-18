@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1E9D0AE5CF55A2A'
+
+extend view C_BSORDITMPROCFLWBILLGDOCREQ with YY1_4QSNXM2E25PIMSLV56YY25ELXU
+  
+{ 
+  _Extension.YY1_REASONFORCHALLAN_BDI as YY1_ReasonforChallan_BDI
+}

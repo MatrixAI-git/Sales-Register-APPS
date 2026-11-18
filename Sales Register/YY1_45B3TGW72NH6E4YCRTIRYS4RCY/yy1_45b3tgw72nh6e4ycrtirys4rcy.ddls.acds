@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y19426BB160ECF04'
+
+extend view I_SALESQUOTATION with YY1_45B3TGW72NH6E4YCRTIRYS4RCY
+  
+{ 
+  _Extension.YY1_PLANTGSTIN_I_SDH as YY1_PlantGSTIN_i_SDH
+}

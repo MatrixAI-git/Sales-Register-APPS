@@ -1,0 +1,5 @@
+extend view entity E_LOGISTICSORDER with 
+  
+{ 
+  Persistence.YY1_DELIVERY_DATE_NEW_ORD as YY1_delivery_date_new_ORD
+}

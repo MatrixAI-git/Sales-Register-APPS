@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y10000101CCBEC65'
+
+extend view C_SALESDOCUMENTITEMDEX with YY1_5ZHLLSBJGAWCYBFF2TRNYSOCJI
+  
+{ 
+  _ExtensionItem.YY1_DELIVERYTIME_SDI as YY1_DeliveryTime_SDI
+}

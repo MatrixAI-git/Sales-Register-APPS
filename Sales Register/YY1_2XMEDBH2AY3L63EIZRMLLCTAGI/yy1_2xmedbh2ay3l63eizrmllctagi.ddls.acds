@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y10A86C948A2B3BC'
+
+extend view C_PL_BILLINGDOCUMENT with YY1_2XMEDBH2AY3L63EIZRMLLCTAGI
+  
+{ 
+  _Extension.YY1_SALESPERSON_Z2_BDH as YY1_SalesPerson_Z2_BDH
+}

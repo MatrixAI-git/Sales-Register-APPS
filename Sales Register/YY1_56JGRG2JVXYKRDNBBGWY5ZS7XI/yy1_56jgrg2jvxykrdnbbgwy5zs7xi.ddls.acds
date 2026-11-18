@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y118A5C992E42316'
+
+extend view E_PRMTHBRPLDPURCHASEORDERITEM with YY1_56JGRG2JVXYKRDNBBGWY5ZS7XI
+  
+{ 
+  Persistence.YY1_PROMISEDDELIVERYDA_HPI as YY1_PromisedDeliveryDa_HPI
+}

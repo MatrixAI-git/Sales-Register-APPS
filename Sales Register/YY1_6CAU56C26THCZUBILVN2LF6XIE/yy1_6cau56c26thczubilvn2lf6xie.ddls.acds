@@ -1,0 +1,9 @@
+extend view entity R_CUSTOMERRETURNSDELIVERYTP with 
+    association [0..1] to YY1_INDUSTRYTYPE_V as _YY1_IndustryType_DLH
+  on  $projection.YY1_IndustryType_DLH = _YY1_IndustryType_DLH.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_IndustryType_DLH'
+  _Extension.YY1_INDUSTRYTYPE_DLH as YY1_IndustryType_DLH,
+  _YY1_IndustryType_DLH
+}

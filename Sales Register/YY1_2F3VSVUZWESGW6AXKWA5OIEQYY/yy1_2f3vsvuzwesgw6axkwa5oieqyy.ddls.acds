@@ -1,0 +1,18 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y12AC94E03186604'
+
+extend view C_SALESDOCUMENTITEMDEX with YY1_2F3VSVUZWESGW6AXKWA5OIEQYY
+    association [0..1] to YY1_INDUSTRY_V as _YY1_Industry_SDH
+  on  $projection.YY1_Industry_SDH = _YY1_Industry_SDH.Code 
+ 
+{ 
+@Consumption.valueHelpDefinition: [{
+  entity: {
+    name: 'YY1_INDUSTRY_V',
+    element: 'Code'
+  }
+}]
+@ObjectModel.foreignKey.association: '_YY1_Industry_SDH'
+  _ExtensionHeader.YY1_INDUSTRY_SDH as YY1_Industry_SDH,
+  _YY1_Industry_SDH
+}

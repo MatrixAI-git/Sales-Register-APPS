@@ -1,0 +1,5 @@
+extend view entity C_SALESORDERITEMMANAGE with 
+  
+{ 
+  SalesOrderItem.YY1_MATERIAL_ITEM_DESC_SDI as YY1_MATERIAL_ITEM_DESC_SDI
+}

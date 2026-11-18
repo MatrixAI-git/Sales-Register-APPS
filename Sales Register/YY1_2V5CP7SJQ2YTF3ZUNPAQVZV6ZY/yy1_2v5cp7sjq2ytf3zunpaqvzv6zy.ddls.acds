@@ -1,0 +1,18 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1595B1395888C57'
+
+extend view I_SCHEDGAGRMTITMAPI01 with YY1_2V5CP7SJQ2YTF3ZUNPAQVZV6ZY
+    association [0..1] to YY1_DELIVERY_PRIOR_V as _YY1_DELIVERY_PRIOR_PDI
+  on  $projection.YY1_DELIVERY_PRIOR_PDI = _YY1_DELIVERY_PRIOR_PDI.Code 
+ 
+{ 
+@Consumption.valueHelpDefinition: [{
+  entity: {
+    name: 'YY1_DELIVERY_PRIOR_V',
+    element: 'Code'
+  }
+}]
+@ObjectModel.foreignKey.association: '_YY1_DELIVERY_PRIOR_PDI'
+  _SchAgreementItemExtension.YY1_DELIVERY_PRIOR_PDI as YY1_DELIVERY_PRIOR_PDI,
+  _YY1_DELIVERY_PRIOR_PDI
+}

@@ -1,0 +1,5 @@
+extend view entity C_SLSDOCMASSCHGREQHDRCHANGETP with 
+  
+{ 
+  SlsDocMassReqHdrChg.YY1_SD_QADocuments_SDH as YY1_SD_QADocuments_SDH
+}

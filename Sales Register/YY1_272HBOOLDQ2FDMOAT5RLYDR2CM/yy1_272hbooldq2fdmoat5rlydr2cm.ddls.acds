@@ -1,0 +1,5 @@
+extend view entity C_CUSTOMER360SALESQUOTATION with 
+  
+{ 
+  _Extension.YY1_SD_QADOCUMENTS_SDH as YY1_SD_QADocuments_SDH
+}

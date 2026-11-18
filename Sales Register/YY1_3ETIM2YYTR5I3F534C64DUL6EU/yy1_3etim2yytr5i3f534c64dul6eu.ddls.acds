@@ -1,0 +1,5 @@
+extend view entity R_PRODUCTIONORDERTP with 
+  
+{ 
+  _Extension.YY1_SERIAL_NO_ORD as YY1_serial_no_ORD
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1916073BA21B35D'
+
+extend view I_BILLINGDOCUMENTBASIC with YY1_6LOMOCBVP32NNUNUWIKM3KNVNU
+  
+{ 
+  _Extension.YY1_BTP_STREETNAME_BDH as YY1_BTP_StreetName_BDH
+}

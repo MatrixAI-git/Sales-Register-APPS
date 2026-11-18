@@ -1,0 +1,5 @@
+extend view entity E_SOURCINGPROJECTITEM with 
+  
+{ 
+  Persistence.YY1_PR_TRACKINGNUMBER_SPM as YY1_PR_TRACKINGNUMBER_SPM
+}

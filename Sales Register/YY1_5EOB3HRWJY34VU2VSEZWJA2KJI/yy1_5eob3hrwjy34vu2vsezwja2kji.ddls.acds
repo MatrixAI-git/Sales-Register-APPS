@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y16985480F052AB4'
+
+extend view C_CENTRALPURCHASEORDERTP with YY1_5EOB3HRWJY34VU2VSEZWJA2KJI
+  
+{ 
+  _PrmtHbRpldPurchaseOrder.YY1_SUPPLIERGSTIN_PDH as YY1_SupplierGSTIN_PDH
+}

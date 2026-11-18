@@ -1,0 +1,5 @@
+extend view entity R_BILLINGDOCUMENTITEMTP with 
+  
+{ 
+  _Extension.YY1_PLANTGSTIN1_BDI as YY1_PlantGSTIN1_BDI
+}

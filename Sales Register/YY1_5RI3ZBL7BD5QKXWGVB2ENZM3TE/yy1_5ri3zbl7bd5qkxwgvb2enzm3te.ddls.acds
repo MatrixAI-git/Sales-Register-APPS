@@ -1,0 +1,5 @@
+extend view entity R_SLSDOCMASSCHGREQITEMCHANGETP with 
+  
+{ 
+  _Extension.YY1_SD_RTPLSPECIALINST_SDI as YY1_SD_RTPLSpecialInst_SDI
+}

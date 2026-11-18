@@ -1,0 +1,5 @@
+extend view entity I_CNTRLREQFORQUOTATIONITEMTP_2 with 
+  
+{ 
+  _CentralReqForQuotationItem.YY1_Supplier_No_PDI as YY1_Supplier_No_PDI
+}

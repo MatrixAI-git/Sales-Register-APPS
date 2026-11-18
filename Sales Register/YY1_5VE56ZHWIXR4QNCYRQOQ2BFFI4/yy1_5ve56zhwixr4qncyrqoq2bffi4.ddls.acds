@@ -1,0 +1,9 @@
+extend view entity R_SLSDOCMASSCHGREQITEMCHANGETP with 
+    association [0..1] to YY1_SD_PAINTING_V as _YY1_SD_Painting_SDI
+  on  $projection.YY1_SD_Painting_SDI = _YY1_SD_Painting_SDI.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_SD_Painting_SDI'
+  _Extension.YY1_SD_PAINTING_SDI as YY1_SD_Painting_SDI,
+  _YY1_SD_Painting_SDI
+}

@@ -1,0 +1,5 @@
+extend view entity E_SALESDOCUMENTBASIC with 
+  
+{ 
+  Persistence.YY1_FREIGHT1_SDH as YY1_Freight1_SDH
+}

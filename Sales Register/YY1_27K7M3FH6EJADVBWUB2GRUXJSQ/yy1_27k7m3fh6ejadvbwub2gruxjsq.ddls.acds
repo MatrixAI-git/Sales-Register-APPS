@@ -1,0 +1,4 @@
+extend abstract entity D_BLGDCCRTEFRMEXTBLLBLEDOCITMP with 
+{ 
+ YY1_TypesOfGood_BDI : YY1_TYPESOFGOOD;
+}

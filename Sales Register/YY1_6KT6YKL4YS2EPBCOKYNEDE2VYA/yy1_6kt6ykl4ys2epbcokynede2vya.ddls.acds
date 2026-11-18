@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1E0E3A27F668527'
+
+extend view I_SALESDOCUMENT with YY1_6KT6YKL4YS2EPBCOKYNEDE2VYA
+  
+{ 
+  _Extension.YY1_RPTIGENERALCOMMENT_SDH as YY1_RPTIGeneralComment_SDH
+}

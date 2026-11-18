@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y129202CDBE23577'
+
+extend view I_PURCHASINGINFORECORDAPI01 with YY1_35G56W433UUNNQXTQB46QXZAV4
+  
+{ 
+  _Extension.YY1_REASONFORDELETION_SOS as YY1_Reasonfordeletion_SOS
+}

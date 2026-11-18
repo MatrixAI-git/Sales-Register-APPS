@@ -1,0 +1,9 @@
+extend view entity R_SALESORDERTP with 
+    association [0..1] to YY1_SALESCHANNEL_V as _YY1_SalesChannel_SDH
+  on  $projection.YY1_SalesChannel_SDH = _YY1_SalesChannel_SDH.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_SalesChannel_SDH'
+  _Extension.YY1_SALESCHANNEL_SDH as YY1_SalesChannel_SDH,
+  _YY1_SalesChannel_SDH
+}

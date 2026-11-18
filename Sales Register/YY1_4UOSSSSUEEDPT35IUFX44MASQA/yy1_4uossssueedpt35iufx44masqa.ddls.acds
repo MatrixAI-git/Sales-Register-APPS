@@ -1,0 +1,17 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y10E7281EB3BEF36'
+
+extend view C_BSORDITMPROCFLWBILLGDOCREQ with YY1_4UOSSSSUEEDPT35IUFX44MASQA
+    association [0..1] to YY1_TYPESOFGOOD_V as _YY1_TypesOfGood_BDI
+  on  $projection.YY1_TypesOfGood_BDI = _YY1_TypesOfGood_BDI.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_TypesOfGood_BDI'
+@ObjectModel.text.element: ['YY1_TypesOfGood_BDIT']
+  _Extension.YY1_TYPESOFGOOD_BDI as YY1_TypesOfGood_BDI,
+@Semantics.text: true
+@ObjectModel.readOnly: true
+@ObjectModel.filter.enabled: false
+  _Extension._YY1_TypesOfGood_BDI._Text[ 1: Language = $session.system_language ].Description as YY1_TypesOfGood_BDIT,
+  _YY1_TypesOfGood_BDI
+}

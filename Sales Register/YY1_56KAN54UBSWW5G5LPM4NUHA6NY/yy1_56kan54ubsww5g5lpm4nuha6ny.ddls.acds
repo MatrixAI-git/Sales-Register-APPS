@@ -1,0 +1,18 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y19F61AD8CACD6B1'
+
+extend view C_MASSCHANGESALESORDERITEM with YY1_56KAN54UBSWW5G5LPM4NUHA6NY
+    association [0..1] to YY1_SD_DBGRADE_V as _YY1_SD_DBGrade_SDI
+  on  $projection.YY1_SD_DBGrade_SDI = _YY1_SD_DBGrade_SDI.Code 
+ 
+{ 
+@Consumption.valueHelpDefinition: [{
+  entity: {
+    name: 'YY1_SD_DBGRADE_V',
+    element: 'Code'
+  }
+}]
+@ObjectModel.foreignKey.association: '_YY1_SD_DBGrade_SDI'
+  _ItemExtension.YY1_SD_DBGRADE_SDI as YY1_SD_DBGrade_SDI,
+  _YY1_SD_DBGrade_SDI
+}

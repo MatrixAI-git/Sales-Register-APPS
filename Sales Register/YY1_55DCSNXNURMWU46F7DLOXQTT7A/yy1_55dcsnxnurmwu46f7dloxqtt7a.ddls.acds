@@ -1,0 +1,12 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1F6CDECCE3B4F9B'
+
+extend view E_BILLINGDOCUMENTITEM with YY1_55DCSNXNURMWU46F7DLOXQTT7A
+    association [0..1] to YY1_INDUSTRY_V as _YY1_Industry_BDI
+  on  $projection.YY1_Industry_BDI = _YY1_Industry_BDI.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_Industry_BDI'
+  Persistence.YY1_INDUSTRY_BDI as YY1_Industry_BDI,
+  _YY1_Industry_BDI
+}

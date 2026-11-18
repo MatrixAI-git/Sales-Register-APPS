@@ -1,0 +1,5 @@
+extend view entity E_OPERATIONALACCTGDOCITEM with 
+  
+{ 
+  Persistence.YY1_STATE_CODE_JEI as YY1_STATE_CODE_JEI
+}

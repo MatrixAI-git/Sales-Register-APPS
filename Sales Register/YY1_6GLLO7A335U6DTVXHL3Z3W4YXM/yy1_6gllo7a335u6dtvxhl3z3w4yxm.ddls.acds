@@ -1,0 +1,5 @@
+extend view entity A_SALESORDERITEM_2 with 
+  
+{ 
+  SalesOrderItem.YY1_SD_FBKWSize_SDI as YY1_SD_FBKWSize_SDI
+}

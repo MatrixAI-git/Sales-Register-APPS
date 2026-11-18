@@ -1,0 +1,18 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y193261DC7B510BC'
+
+extend view C_EXTPURCHASEREQUISITIONITEM with YY1_45AKYY5DYSDAVPVRUQLNIOT63A
+    association [0..1] to YY1_DELIVERY_PRIOR_V as _YY1_DELIVERY_PRIOR_PRI
+  on  $projection.YY1_DELIVERY_PRIOR_PRI = _YY1_DELIVERY_PRIOR_PRI.Code 
+ 
+{ 
+@Consumption.valueHelpDefinition: [{
+  entity: {
+    name: 'YY1_DELIVERY_PRIOR_V',
+    element: 'Code'
+  }
+}]
+@ObjectModel.foreignKey.association: '_YY1_DELIVERY_PRIOR_PRI'
+  _PrmtHbRpldPurchaseReqnItem.YY1_DELIVERY_PRIOR_PRI as YY1_DELIVERY_PRIOR_PRI,
+  _YY1_DELIVERY_PRIOR_PRI
+}

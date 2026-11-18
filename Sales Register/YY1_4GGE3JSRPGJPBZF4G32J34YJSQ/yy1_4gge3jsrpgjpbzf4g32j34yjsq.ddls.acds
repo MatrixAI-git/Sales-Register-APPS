@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y118FCF190A5E461'
+
+extend view FAC_CDS_BSEG_BKPF with YY1_4GGE3JSRPGJPBZF4G32J34YJSQ
+  
+{ 
+  _Extension.YY1_GSTIN_V_JEI as YY1_GSTIN_V_JEI
+}

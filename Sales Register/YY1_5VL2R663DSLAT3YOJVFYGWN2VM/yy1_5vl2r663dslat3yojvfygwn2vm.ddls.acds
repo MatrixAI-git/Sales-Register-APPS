@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y15E13A6B6909FCF'
+
+extend view C_CENTRALPURCHASEORDERITEMTP with YY1_5VL2R663DSLAT3YOJVFYGWN2VM
+  
+{ 
+  _PrmtHbRpldPurchaseOrderItem.YY1_APPROVALREASON_HPI as YY1_ApprovalReason_HPI
+}

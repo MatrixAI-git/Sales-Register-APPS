@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1170A693FBB2888'
+
+extend view C_SALESORDERQUERY with YY1_3N52X6M4FOUS4NWCYYTQGIPCI4
+  
+{ 
+  YY1_plantgstin_header_SDH as YY1_plantgstin_header_SDH
+}

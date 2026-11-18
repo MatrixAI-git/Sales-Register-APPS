@@ -1,0 +1,5 @@
+extend view entity E_PRODUCTIONORDER with 
+  
+{ 
+  Persistence.YY1_FCD_PROD_ORDER_ORD as YY1_FCD_Prod_Order_ORD
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y15F8EA6D01555BA'
+
+extend view C_PURINFORECORDWITHORG with YY1_4DQ3B6LU52DMOWQWFFQ3WPDYGU
+  
+{ 
+  YY1_Reasonfordeletion_SOS as YY1_Reasonfordeletion_SOS
+}

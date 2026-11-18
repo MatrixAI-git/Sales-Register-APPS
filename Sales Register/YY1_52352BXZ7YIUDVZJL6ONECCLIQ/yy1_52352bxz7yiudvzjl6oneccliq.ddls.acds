@@ -1,0 +1,5 @@
+extend view entity R_SALESORDERTP with 
+  
+{ 
+  _Extension.YY1_ZCUSTOM_SDH as YY1_Zcustom_SDH
+}

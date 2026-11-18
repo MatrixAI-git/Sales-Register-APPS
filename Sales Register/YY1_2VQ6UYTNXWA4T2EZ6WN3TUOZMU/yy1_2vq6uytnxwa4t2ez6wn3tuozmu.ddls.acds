@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1C5EC7397F60450'
+
+extend view I_BILLINGDOCUMENTBASIC with YY1_2VQ6UYTNXWA4T2EZ6WN3TUOZMU
+  
+{ 
+  _Extension.YY1_BTP_COUNTRYNAME_BDH as YY1_BTP_CountryName_BDH
+}

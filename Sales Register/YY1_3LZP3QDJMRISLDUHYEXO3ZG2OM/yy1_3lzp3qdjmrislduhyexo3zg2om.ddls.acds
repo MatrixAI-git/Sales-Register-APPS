@@ -1,0 +1,5 @@
+extend view entity A_SALESORDER_2 with 
+  
+{ 
+  SalesOrder.YY1_plantphone_header_SDH as YY1_plantphone_header_SDH
+}

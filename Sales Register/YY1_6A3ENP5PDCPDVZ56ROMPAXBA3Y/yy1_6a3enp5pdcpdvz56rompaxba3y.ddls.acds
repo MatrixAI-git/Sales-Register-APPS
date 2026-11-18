@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1EA0FF83437E8C2'
+
+extend view I_BILLINGDOCUMENTBASIC with YY1_6A3ENP5PDCPDVZ56ROMPAXBA3Y
+  
+{ 
+  _Extension.YY1_PORTOFDISCHARGE1_BDH as YY1_PortOfDischarge1_BDH
+}

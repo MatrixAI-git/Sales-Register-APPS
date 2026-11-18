@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1F40A151737DAFE'
+
+extend view C_SALESVOLUMEANALYTICSQRY with YY1_6IWKWC5XHELGJDV6DSAOH2DCVA
+  
+{ 
+  YY1_ReasonforChallan_BDI as YY1_ReasonforChallan_BDI
+}

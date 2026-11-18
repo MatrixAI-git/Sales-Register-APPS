@@ -1,0 +1,5 @@
+extend view entity C_MANAGEJOURNALENTRYLEDGERVIEW with 
+  
+{ 
+  _Extension.YY1_GSTIN_NO_JEI as YY1_GSTIN_NO_JEI
+}

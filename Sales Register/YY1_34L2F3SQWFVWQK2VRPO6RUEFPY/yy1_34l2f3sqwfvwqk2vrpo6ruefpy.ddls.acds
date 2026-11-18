@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y13242F7658D59BB'
+
+extend view I_SALESDOCUMENTBASIC with YY1_34L2F3SQWFVWQK2VRPO6RUEFPY
+  
+{ 
+  _Extension.YY1_CUSTOM_LOG_SDH as YY1_Custom_Log_SDH
+}

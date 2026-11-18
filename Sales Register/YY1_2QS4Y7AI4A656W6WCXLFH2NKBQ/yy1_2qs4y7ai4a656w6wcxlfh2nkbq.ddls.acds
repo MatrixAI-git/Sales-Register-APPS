@@ -1,0 +1,5 @@
+extend view entity A_BILLINGDOCREQUESTITEMS2S with 
+  
+{ 
+  BillingDocumentRequestItem.YY1_ReasonforChallan_BDI as YY1_ReasonforChallan_BDI
+}

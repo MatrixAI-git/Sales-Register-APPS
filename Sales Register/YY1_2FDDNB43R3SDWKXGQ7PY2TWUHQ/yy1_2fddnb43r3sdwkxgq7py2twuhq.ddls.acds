@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y13E50D0004403AA'
+
+extend view I_BILLINGDOCUMENTITEMBASIC with YY1_2FDDNB43R3SDWKXGQ7PY2TWUHQ
+  
+{ 
+  _Extension.YY1_STP_REANDPIN_BDI as YY1_STP_ReAndPin_BDI
+}

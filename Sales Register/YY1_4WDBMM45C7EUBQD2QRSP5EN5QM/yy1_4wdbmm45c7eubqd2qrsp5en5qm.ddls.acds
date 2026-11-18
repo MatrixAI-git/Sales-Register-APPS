@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y118C56CB7F9E958'
+
+extend view C_CNTRLPURORDERITEMMONITOR with YY1_4WDBMM45C7EUBQD2QRSP5EN5QM
+  
+{ 
+  _PrmtHbRpldPurchaseOrderItem.YY1_APPROVALREASON_HPI as YY1_ApprovalReason_HPI
+}

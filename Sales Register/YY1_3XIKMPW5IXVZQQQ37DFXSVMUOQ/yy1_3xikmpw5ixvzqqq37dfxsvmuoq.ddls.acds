@@ -1,0 +1,5 @@
+extend view entity C_SLSDOCMASSCHGREQITEMCHANGETP with 
+  
+{ 
+  SlsDocMassReqItemChg.YY1_SD_RTPLSpecialInst_SDI as YY1_SD_RTPLSpecialInst_SDI
+}

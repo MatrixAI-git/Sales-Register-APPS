@@ -1,0 +1,5 @@
+extend view entity E_JOURNALENTRYITEM with 
+  
+{ 
+  Persistence.YY1_GSTIN_NO_JEI as YY1_GSTIN_NO_JEI
+}

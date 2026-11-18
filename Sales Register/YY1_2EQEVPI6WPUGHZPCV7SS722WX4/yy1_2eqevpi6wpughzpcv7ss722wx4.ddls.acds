@@ -1,0 +1,12 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1E47AA812FB9C03'
+
+extend view I_PURCHASEREQUISITION_API01 with YY1_2EQEVPI6WPUGHZPCV7SS722WX4
+    association [0..1] to YY1_DELIVERY_PRIOR_V as _YY1_DELIVERY_PRIOR_PRI
+  on  $projection.YY1_DELIVERY_PRIOR_PRI = _YY1_DELIVERY_PRIOR_PRI.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_DELIVERY_PRIOR_PRI'
+  _Extension.YY1_DELIVERY_PRIOR_PRI as YY1_DELIVERY_PRIOR_PRI,
+  _YY1_DELIVERY_PRIOR_PRI
+}

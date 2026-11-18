@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1DDFF019637BB31'
+
+extend view E_BILLINGDOCUMENTITEM with YY1_4JWVGDHVCOMEVOSSTLBKRKLVFA
+  
+{ 
+  Persistence.YY1_STP_EMAIL_BDI as YY1_STP_Email_BDI
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1071806FC5A32F6'
+
+extend view C_PL_BILLINGDOCUMENT with YY1_22SAPQD2FCZZ7UYBHQQBURKON4
+  
+{ 
+  _Extension.YY1_SHIPPINGMARKS1_BDH as YY1_ShippingMarks1_BDH
+}

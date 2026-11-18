@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1ADCB151147A100'
+
+extend view C_SLSDOCFLFLLMNTANALYZER with YY1_22PC33PLFU5CZOJY7SWIYOSX5Q
+  
+{ 
+  _Extension.YY1_SD_QADOCUMENTS_SDH as YY1_SD_QADocuments_SDH
+}

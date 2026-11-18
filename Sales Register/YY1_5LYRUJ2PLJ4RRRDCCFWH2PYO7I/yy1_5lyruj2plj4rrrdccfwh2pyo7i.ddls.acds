@@ -1,0 +1,5 @@
+extend view entity E_ORDERCONFIRMATION with 
+  
+{ 
+  Persistence.YY1_DOWNTIME2_CFM as YY1_Downtime2_CFM
+}

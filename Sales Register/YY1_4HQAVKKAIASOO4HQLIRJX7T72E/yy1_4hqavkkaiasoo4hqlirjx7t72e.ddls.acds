@@ -1,0 +1,5 @@
+extend view entity E_CITITEMCLASSIFICATION with 
+  
+{ 
+  Persistence.YY1_GSTIN_NO_CLF as YY1_GSTIN_NO_Clf
+}

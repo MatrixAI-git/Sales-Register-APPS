@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y10FB8CE252801EC'
+
+extend view C_BILLINGDOCUMENTITEM_F0797 with YY1_4NW5U7KW5NU3QDQULB7OVBKU3M
+  
+{ 
+  Item.YY1_ReasonforChallan_BDI as YY1_ReasonforChallan_BDI
+}

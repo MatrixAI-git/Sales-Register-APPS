@@ -1,0 +1,5 @@
+extend view entity I_GLACCOUNTLINEITEM with 
+  
+{ 
+  _Extension.YY1_STATE_CODE_JEI as YY1_STATE_CODE_JEI
+}

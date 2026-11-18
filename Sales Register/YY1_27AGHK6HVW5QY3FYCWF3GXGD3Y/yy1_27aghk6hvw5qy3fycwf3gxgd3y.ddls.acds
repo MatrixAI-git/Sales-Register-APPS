@@ -1,0 +1,21 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y11872DBBE4C1EE7'
+
+extend view I_BILLINGDOCUMENTBASIC with YY1_27AGHK6HVW5QY3FYCWF3GXGD3Y
+    association [0..1] to I_CURRENCY as _YY1_CGSTValue_BDH
+  on  $projection.YY1_CGSTValue_BDHC = _YY1_CGSTValue_BDH.Currency 
+ 
+{ 
+@Semantics.amount.currencyCode: 'YY1_CGSTValue_BDHC'
+  _Extension.YY1_CGSTVALUE_BDH as YY1_CGSTValue_BDH,
+@Consumption.valueHelpDefinition: [{
+  entity: {
+    name: 'I_CURRENCY',
+    element: 'Currency'
+  }
+}]
+@Semantics.currencyCode: true
+@ObjectModel.foreignKey.association: '_YY1_CGSTValue_BDH'
+  _Extension.YY1_CGSTVALUE_BDHC as YY1_CGSTValue_BDHC,
+  _YY1_CGSTValue_BDH
+}

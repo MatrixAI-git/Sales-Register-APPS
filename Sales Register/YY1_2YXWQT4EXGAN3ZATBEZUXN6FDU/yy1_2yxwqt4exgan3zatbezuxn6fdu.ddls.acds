@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1CED67B46B7F237'
+
+extend view I_BILLINGDOCUMENTITEMBASIC with YY1_2YXWQT4EXGAN3ZATBEZUXN6FDU
+  
+{ 
+  _Extension.YY1_ITEMCONFIRMDATE_BDI as YY1_ItemConfirmDate_BDI
+}

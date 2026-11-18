@@ -1,0 +1,5 @@
+extend view entity E_FINANCIALPLANNINGENTRYITEM with 
+  
+{ 
+  Persistence.YY1_GST_STATECODE_FI_JEI as YY1_Gst_StateCode_FI_JEI
+}

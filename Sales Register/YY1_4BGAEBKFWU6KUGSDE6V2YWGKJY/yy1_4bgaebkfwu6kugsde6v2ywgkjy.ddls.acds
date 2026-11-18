@@ -1,0 +1,5 @@
+extend view entity A_CREDITMEMOREQUESTSIMULATION with 
+  
+{ 
+  _Extension.YY1_BUYER_GSTN_NUMBER_SDH as YY1_Buyer_GSTN_Number_SDH
+}

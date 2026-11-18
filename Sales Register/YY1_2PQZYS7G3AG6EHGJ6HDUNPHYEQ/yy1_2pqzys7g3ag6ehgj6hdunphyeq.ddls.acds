@@ -1,0 +1,9 @@
+extend view entity E_ORDERCONFIRMATION with 
+    association [0..1] to YY1_REASONFORDELAYDOW4_V as _YY1_ReasonforDelayDow4_CFM
+  on  $projection.YY1_ReasonforDelayDow4_CFM = _YY1_ReasonforDelayDow4_CFM.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_ReasonforDelayDow4_CFM'
+  Persistence.YY1_REASONFORDELAYDOW4_CFM as YY1_ReasonforDelayDow4_CFM,
+  _YY1_ReasonforDelayDow4_CFM
+}

@@ -1,0 +1,5 @@
+extend view entity R_SALESORDERREQUESTITEMTP with 
+  
+{ 
+  _Extension.YY1_DRGQAPNO_OQI as YY1_DrgQAPNo_OQI
+}

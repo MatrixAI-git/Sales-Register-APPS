@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y152ADFEAF118064'
+
+extend view E_SDMASSCHGCKPTSLSDOCITMCHGBSC with YY1_2EMRMIPX5DQMRS7IR3TGRBCLP4
+  
+{ 
+  Persistence.YY1_SD_FBKWSIZE_SDI as YY1_SD_FBKWSize_SDI
+}

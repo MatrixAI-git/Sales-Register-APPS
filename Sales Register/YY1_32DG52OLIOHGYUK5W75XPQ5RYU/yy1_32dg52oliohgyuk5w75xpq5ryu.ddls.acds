@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y10312335E30344D'
+
+extend view I_SALESORDERCUBE with YY1_32DG52OLIOHGYUK5W75XPQ5RYU
+  
+{ 
+  _Extension.YY1_PLANTGSTIN_HEADER_SDH as YY1_plantgstin_header_SDH
+}

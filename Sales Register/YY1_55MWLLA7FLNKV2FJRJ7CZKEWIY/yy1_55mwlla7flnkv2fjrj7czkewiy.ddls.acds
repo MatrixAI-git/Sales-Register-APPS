@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1D3F7CC26610672'
+
+extend view I_PURCHASEORDERAPI01 with YY1_55MWLLA7FLNKV2FJRJ7CZKEWIY
+  
+{ 
+  _PurchaseOrderExtension.YY1_SUPPLIERNAME_PDH as YY1_SupplierName_PDH
+}

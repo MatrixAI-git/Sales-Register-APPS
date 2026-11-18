@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1C43B2697BAE5D6'
+
+extend view C_FLDLOGSPROCRCPTCSTMFLDEXTN with YY1_5U2K4UEE5WFQJNEIY47AQXJNXM
+  
+{ 
+  _PurDocItemExtension.YY1_PLANTNAME_PDI as YY1_PlantName_PDI
+}

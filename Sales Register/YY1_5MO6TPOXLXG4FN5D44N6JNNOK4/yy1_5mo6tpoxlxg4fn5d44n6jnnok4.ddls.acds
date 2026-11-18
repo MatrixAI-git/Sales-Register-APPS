@@ -1,0 +1,5 @@
+extend view entity E_FINANCIALPLANNINGENTRYITEM with 
+  
+{ 
+  Persistence.YY1_IGST_P_JEI as YY1_IGST_P_JEI
+}

@@ -1,0 +1,5 @@
+extend view entity P_GVOAACCOUNTLINEITEMENHCD with 
+  
+{ 
+  _Extension.YY1_GST_STATECODE_FI_JEI as YY1_Gst_StateCode_FI_JEI
+}

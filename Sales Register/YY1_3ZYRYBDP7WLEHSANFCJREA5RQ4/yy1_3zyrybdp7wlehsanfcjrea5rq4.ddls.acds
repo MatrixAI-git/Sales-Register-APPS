@@ -1,0 +1,12 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y12C3E112CFCEF95'
+
+extend view E_SDMASSCHGCKPTSLSDOCITMCHGBSC with YY1_3ZYRYBDP7WLEHSANFCJREA5RQ4
+    association [0..1] to YY1_SD_PAINTING_V as _YY1_SD_Painting_SDI
+  on  $projection.YY1_SD_Painting_SDI = _YY1_SD_Painting_SDI.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_SD_Painting_SDI'
+  Persistence.YY1_SD_PAINTING_SDI as YY1_SD_Painting_SDI,
+  _YY1_SD_Painting_SDI
+}

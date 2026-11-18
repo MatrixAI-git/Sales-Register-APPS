@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y106E6CAD90644C1'
+
+extend view I_PURCHASECONTRACTAPI01 with YY1_5JZCJYPTATSWX7HOHD2UAJEHNA
+  
+{ 
+  _HeaderExtension.YY1_SUPPLIERADDR2_PDH as YY1_SupplierAddr2_PDH
+}

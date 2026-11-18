@@ -1,0 +1,5 @@
+extend view entity E_DELIVERYDOCUMENT with 
+  
+{ 
+  Persistence.YY1_LRTYPETEST_DLH as YY1_LRTYPETEST_DLH
+}

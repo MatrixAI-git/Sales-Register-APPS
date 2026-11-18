@@ -1,0 +1,5 @@
+extend view entity R_SALESCONTRACTITEMTP with 
+  
+{ 
+  _Extension.YY1_CUSTOMERREQUESTEDD_SDI as YY1_CustomerRequestedD_SDI
+}

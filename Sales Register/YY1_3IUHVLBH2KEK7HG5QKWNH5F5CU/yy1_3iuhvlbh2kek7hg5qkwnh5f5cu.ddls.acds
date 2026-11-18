@@ -1,0 +1,16 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1C8A1A72E8B017C'
+
+extend view I_SALESANALYTICSCUBE_1 with YY1_3IUHVLBH2KEK7HG5QKWNH5F5CU
+  
+{ 
+@AbapCatalog.compiler.caseJoin
+  case
+    when PSA.SDDocumentObject = 'F'
+      then  _BillgDocItemExtension.YY1_REASONFORCHALLAN_BDI
+    when PSA.SDDocumentObject = 'L'
+      then  _DelivDocItemExtension.YY1_REASONFORCHALLAN_DLI
+    when PSA.SDDocumentObject = 'A'
+      then  _Extension.YY1_REASONFORCHALLAN_SDI
+  end as YY1_ReasonforChallan_VDI
+}

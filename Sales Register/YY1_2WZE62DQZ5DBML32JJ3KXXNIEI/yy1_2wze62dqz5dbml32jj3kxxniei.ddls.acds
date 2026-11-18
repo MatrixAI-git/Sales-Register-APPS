@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y16BBF352206649B'
+
+extend view I_SALESORDERITEMCUBE with YY1_2WZE62DQZ5DBML32JJ3KXXNIEI
+  
+{ 
+  _Extension.YY1_MATERIAL_ITEM_DESC_SDI as YY1_MATERIAL_ITEM_DESC_SDI
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1872615D153FEB3'
+
+extend view E_BILLINGDOCUMENT with YY1_5AMBJHYU6PPH7FABJZDQ23IQVI
+  
+{ 
+  Persistence.YY1_TESTFIELD_BDH as YY1_TestField_BDH
+}

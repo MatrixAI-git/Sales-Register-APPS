@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y128BEEA0D679F7D'
+
+extend view I_BILLINGDOCUMENTITEM with YY1_6KSWCJFIJL2I35ELFHH5LCKX54
+  
+{ 
+  _Extension.YY1_MATERIAL_TEXT_BDI as YY1_Material_Text_BDI
+}

@@ -1,0 +1,5 @@
+extend view entity C_CUSTOMER360SALESCONTRACT with 
+  
+{ 
+  _Extension.YY1_SD_PACKING_SDH as YY1_SD_Packing_SDH
+}

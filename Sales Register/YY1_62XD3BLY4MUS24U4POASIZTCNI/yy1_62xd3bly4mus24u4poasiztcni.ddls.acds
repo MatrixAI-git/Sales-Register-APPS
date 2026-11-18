@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1B9B6A1FEF9C74F'
+
+extend view I_SALESDOCUMENTITEM with YY1_62XD3BLY4MUS24U4POASIZTCNI
+  
+{ 
+  _Extension.YY1_SD_TAGNO_SDI as YY1_SD_TagNo_SDI
+}

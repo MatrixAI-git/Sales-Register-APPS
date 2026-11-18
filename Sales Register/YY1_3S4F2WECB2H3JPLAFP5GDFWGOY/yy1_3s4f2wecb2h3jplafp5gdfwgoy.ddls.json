@@ -1,0 +1,9 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "YY1_SD_RTPLStatus",
+    "originalLanguage": "en"
+  },
+  "sourceOrigin": "customFields",
+  "sourceType": "viewExtend"
+}

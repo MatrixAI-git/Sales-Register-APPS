@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y11343427AEA691C'
+
+extend view C_JRNLENTRYITEMCORRESPNC with YY1_2PYWFOH6VABJEQBAYIKMCHSS6I
+  
+{ 
+  _Extension.YY1_GSTIN_V_JEI as YY1_GSTIN_V_JEI
+}

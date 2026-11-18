@@ -1,0 +1,5 @@
+extend view entity E_SALESDOCUMENTBASIC with 
+  
+{ 
+  Persistence.YY1_LRTYPE_SDH as YY1_LRType_SDH
+}

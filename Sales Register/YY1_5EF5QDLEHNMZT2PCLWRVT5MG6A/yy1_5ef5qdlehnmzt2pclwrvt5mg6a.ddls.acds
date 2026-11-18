@@ -1,0 +1,9 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1F6123A50C762AC'
+
+extend view I_MFGORDERCONFIRMATION with YY1_5EF5QDLEHNMZT2PCLWRVT5MG6A
+  
+{ 
+@DefaultAggregation: #SUM
+  _Extension.YY1_DOWNTIME5_CFM as YY1_Downtime5_CFM
+}

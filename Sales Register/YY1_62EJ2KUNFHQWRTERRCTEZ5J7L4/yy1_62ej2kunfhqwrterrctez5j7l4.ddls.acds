@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1A11B0CA22B6514'
+
+extend view FIN_SUBSTNVALDTNCODINGBLOCK with YY1_62EJ2KUNFHQWRTERRCTEZ5J7L4
+  
+{ 
+  _Extension.YY1_REASONFORCHALLAN_COB as YY1_ReasonforChallan_COB
+}

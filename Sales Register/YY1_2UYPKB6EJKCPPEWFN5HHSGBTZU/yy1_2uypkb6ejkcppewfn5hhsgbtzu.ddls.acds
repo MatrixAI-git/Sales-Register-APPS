@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1116F30688A339C'
+
+extend view I_MANUFACTURINGORDER with YY1_2UYPKB6EJKCPPEWFN5HHSGBTZU
+  
+{ 
+  _Extension.YY1_CASENO_NEW_ORD as YY1_caseno_new_ORD
+}

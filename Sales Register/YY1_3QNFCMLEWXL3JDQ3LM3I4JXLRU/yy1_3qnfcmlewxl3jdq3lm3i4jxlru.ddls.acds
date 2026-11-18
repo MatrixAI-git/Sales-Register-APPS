@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y183194A6A523BF1'
+
+extend view I_SALESORDERITEMCUBE with YY1_3QNFCMLEWXL3JDQ3LM3I4JXLRU
+  
+{ 
+  _Extension.YY1_SD_RTPLEXTRAFIELD1_SDI as YY1_SD_RTPLExtraField1_SDI
+}

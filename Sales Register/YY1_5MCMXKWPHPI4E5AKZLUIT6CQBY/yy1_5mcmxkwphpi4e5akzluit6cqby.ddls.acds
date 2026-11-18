@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1797EC16027B229'
+
+extend view I_BILLINGDOCUMENTITEMBASIC with YY1_5MCMXKWPHPI4E5AKZLUIT6CQBY
+  
+{ 
+  _Extension.YY1_EXPORT_STP_REGION_BDI as YY1_export_STP_Region_BDI
+}

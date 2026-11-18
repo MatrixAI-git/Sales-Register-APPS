@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y111C837899C8EE0'
+
+extend view C_PL_BILLINGDOCUMENT with YY1_55PTGQI3ZK53MLIEZCDUIW2IXI
+  
+{ 
+  _Extension.YY1_TOTALNETWEIGHT1_BDH as YY1_TotalNetWeight1_BDH
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y17355358689ADAB'
+
+extend view E_PURCHASINGDOCUMENT with YY1_5ZGZBA6R4AAYDU5FAVME3KQ4ZM
+  
+{ 
+  Persistence.YY1_PURDOC_NO_PDH as YY1_PurDoc_No_PDH
+}

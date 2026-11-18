@@ -1,0 +1,21 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1C89D2E51349C8E'
+
+extend view I_PURCHASECONTRACTAPI01 with YY1_65K4H6AN4WV3DCHNVE4XSJMOIA
+    association [0..1] to I_CURRENCY as _YY1_FreightValue_PDH
+  on  $projection.YY1_FreightValue_PDHC = _YY1_FreightValue_PDH.Currency 
+ 
+{ 
+@Semantics.amount.currencyCode: 'YY1_FreightValue_PDHC'
+  _HeaderExtension.YY1_FREIGHTVALUE_PDH as YY1_FreightValue_PDH,
+@Consumption.valueHelpDefinition: [{
+  entity: {
+    name: 'I_CURRENCY',
+    element: 'Currency'
+  }
+}]
+@Semantics.currencyCode: true
+@ObjectModel.foreignKey.association: '_YY1_FreightValue_PDH'
+  _HeaderExtension.YY1_FREIGHTVALUE_PDHC as YY1_FreightValue_PDHC,
+  _YY1_FreightValue_PDH
+}

@@ -1,0 +1,22 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y187E04153FE6AF4'
+
+extend view FIN_SUBVAL_PLANNINGENTRYITEM with YY1_2LZ7XEBD2E2BNYF2YPO3XQCD6M
+    association [0..1] to YY1_TYPESOFGOOD_V as _YY1_TypesOfGood_COB
+  on  $projection.YY1_TypesOfGood_COB = _YY1_TypesOfGood_COB.Code 
+   association [0..1] to YY1_TYPESOFGOOD_V as _YY1_TypesOfGood_JEI
+  on  $projection.YY1_TypesOfGood_JEI = _YY1_TypesOfGood_JEI.Code 
+   association [0..1] to YY1_TYPESOFGOOD_V as _YY1_TypesOfGood_MSE
+  on  $projection.YY1_TypesOfGood_MSE = _YY1_TypesOfGood_MSE.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_TypesOfGood_COB'
+  _Extension.YY1_TYPESOFGOOD_COB as YY1_TypesOfGood_COB,
+@ObjectModel.foreignKey.association: '_YY1_TypesOfGood_JEI'
+  _Extension.YY1_TYPESOFGOOD_JEI as YY1_TypesOfGood_JEI,
+@ObjectModel.foreignKey.association: '_YY1_TypesOfGood_MSE'
+  _Extension.YY1_TYPESOFGOOD_MSE as YY1_TypesOfGood_MSE,
+  _YY1_TypesOfGood_COB,
+  _YY1_TypesOfGood_JEI,
+  _YY1_TypesOfGood_MSE
+}

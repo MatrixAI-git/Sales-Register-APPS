@@ -1,0 +1,9 @@
+extend view entity R_INBOUNDDELIVERYTP with 
+    association [0..1] to YY1_DELIVERY_PRIOR_V as _YY1_DELIVERY_PRIOR_DLH
+  on  $projection.YY1_DELIVERY_PRIOR_DLH = _YY1_DELIVERY_PRIOR_DLH.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_DELIVERY_PRIOR_DLH'
+  _Extension.YY1_DELIVERY_PRIOR_DLH as YY1_DELIVERY_PRIOR_DLH,
+  _YY1_DELIVERY_PRIOR_DLH
+}

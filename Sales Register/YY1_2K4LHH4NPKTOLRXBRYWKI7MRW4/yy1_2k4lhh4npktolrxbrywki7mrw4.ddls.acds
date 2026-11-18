@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1A6C95211A1DEDB'
+
+extend view A_CUSTPROJSLSORDITEM with YY1_2K4LHH4NPKTOLRXBRYWKI7MRW4
+  
+{ 
+  _Extension.YY1_SD_TAGNO_SDI as YY1_SD_TagNo_SDI
+}

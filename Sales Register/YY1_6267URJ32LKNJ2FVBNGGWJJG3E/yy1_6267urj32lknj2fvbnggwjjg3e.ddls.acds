@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1048C4F4E77B9F1'
+
+extend view E_PURCHASINGDOCUMENTITEM with YY1_6267URJ32LKNJ2FVBNGGWJJG3E
+  
+{ 
+  Persistence.YY1_PLANTADDR2_PDI as YY1_PlantAddr2_PDI
+}

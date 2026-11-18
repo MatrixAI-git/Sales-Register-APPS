@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1F3AA53EF665A30'
+
+extend view I_PURCHASEORDERITEMAPI01 with YY1_4UZD4NXKNABYLQLN3GGDEM4TLE
+  
+{ 
+  _PurchaseOrderItemExtension.YY1_PLANTCIN_PDI as YY1_PlantCIN_PDI
+}

@@ -1,0 +1,17 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1E14A38E0B1279D'
+
+extend view I_SALESPERFORMANCECUBE with YY1_2B3SYKLIEKYSBMYUZHMQKLARRY
+    association [0..1] to YY1_TYPESOFGOOD_V as _YY1_TypesOfGood_SP4
+  on  $projection.YY1_TypesOfGood_SP4 = _YY1_TypesOfGood_SP4.Code 
+ 
+{ 
+@ObjectModel.foreignKey.association: '_YY1_TypesOfGood_SP4'
+  case
+    when PSP.SDDocumentObject = 'F'
+      then  _BDIExtension.YY1_TYPESOFGOOD_BDI
+    when PSP.SDDocumentObject = 'X'
+      then  _SPExtension.YY1_TYPESOFGOOD_BDI
+  end as YY1_TypesOfGood_SP4,
+  _YY1_TypesOfGood_SP4
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y19B49D28C97A112'
+
+extend view CTE_FIN_SUBS_TARGET_ITEM with YY1_45M3TEJKAQEPOM3LDW62KGULEM
+  
+{ 
+  _Extension.YY1_GSTIN_NO_JEI as YY1_GSTIN_NO_JEI
+}

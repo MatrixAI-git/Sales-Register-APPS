@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'Y1BCCCBB35CC9FFC'
+
+extend view I_SCHEDGAGRMTITMAPI01 with YY1_5TEW4UOPSRDJBS6VMQBQXOWAZY
+  
+{ 
+  _SchAgreementItemExtension.YY1_PLANTADDR2_PDI as YY1_PlantAddr2_PDI
+}
